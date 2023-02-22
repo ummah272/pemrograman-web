@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>atribut datalist</title>
+</head>
+<body>
+    <datalist id="id-kontak">
+        <option value="tomi@yahoo.com" label="tomi">
+        <option value="riko@gmail.com" label="riko">
+        <option value="juminten@hotmail.com" label="juminten">
+    </datalist>
+    <form id="formulir" action="submit.php" method="post">
+        <label>kontak</label>
+        <input type="email" name="email" list="id-kontak">
+        <input type="submit" value="kirim">
+    </form>
+</body>
+</html>
