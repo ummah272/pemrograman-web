@@ -7,7 +7,7 @@
 <?php
      $nama = "Siti Nur Rohmatul Ummah";
      $tempat_lahir = "Sidoarjo";
-     $tanggal_lahir = date('Y-m-d', strtotime('2003-09-02'));
+     $tanggal_lahir = date('Y-m-d', strtotime('2003-09-09'));
      $universitas = "UPN Veteran Jawa Timur";
      $jurusan = "Informatika";
      $npm = 21081010272;
